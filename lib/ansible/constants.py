@@ -59,7 +59,7 @@ def set_constant(name, value, export=vars()):
 
 
 # CONSTANTS ### yes, actual ones
-BECOME_METHODS = ['sudo', 'su', 'pbrun', 'pfexec', 'doas', 'dzdo', 'ksu', 'runas', 'pmrun', 'enable']
+BECOME_METHODS = ['sudo', 'su', 'pbrun', 'pfexec', 'doas', 'dzdo', 'ksu', 'runas', 'pmrun', 'enable', 'sesu']
 BECOME_ERROR_STRINGS = {
     'sudo': 'Sorry, try again.',
     'su': 'Authentication failure',
@@ -69,6 +69,7 @@ BECOME_ERROR_STRINGS = {
     'dzdo': '',
     'ksu': 'Password incorrect',
     'pmrun': 'You are not permitted to run this command',
+    'sesu': 'Sorry, try again with sesu.',
     'enable': '',
 }  # FIXME: deal with i18n
 BECOME_MISSING_STRINGS = {
