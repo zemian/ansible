@@ -81,6 +81,7 @@ BECOME_MISSING_STRINGS = {
     'dzdo': '',
     'ksu': 'No password given',
     'pmrun': '',
+    'sesu': 'Sorry, try again with sesu.',
     'enable': '',
 }  # FIXME: deal with i18n
 BLACKLIST_EXTS = ('.pyc', '.pyo', '.swp', '.bak', '~', '.rpm', '.md', '.txt')
